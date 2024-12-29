@@ -262,9 +262,235 @@ li{
     font-size: 20px;
     margin-left: 10px;
 }
-/* =================count bar start=================== */
-/* =================count bar end=================== */
-/* =================nav bar start=================== */
-/* =================nav bar end=================== */
+/* =================biusnes bar start=================== */
+.Full_window{
+    background-color: #201353;
+    width: 100%px;
+}
+.main_contend{
+    display: flex;
+}
+.main_contend_one{
+    width: 500px;
+}
+.main_contend_two{
+    width: 500px;
+}
+.main_contend_one h2{
+    font-size: 52px;
+    color: white;
+    margin-top: 100px;
+    z-index: 999;
+}
+.contend_one{
+    width: 388px;
+    height: 188px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.box_parent{
+    display: flex;
+    align-items: center;
+}
+.box_parent img{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.box_parent span{
+    margin-top: 24px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: #192252;
+}
+.contend_one p{
+    color: #848FAc;
+    width: 320px;
+    height: 48px;
+    margin: 16px auto;
+}
+.contend_three{
+    width: 388px;
+    height: 188px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 48px;
+    margin-bottom: 100px;
+}
+.contend_three p{
+    color: #848FAc;
+    width: 320px;
+    height: 48px;
+    margin: 16px auto;
+}
+
+.main_contend_two p{
+   font-size: 18px;
+   color: white;
+   margin-left: 200px;
+   /* background-color: red; */
+   width: 555px;
+   height: 66px;
+   margin-top: 118px;
+   margin-bottom: 88px;
+}
+.main_contend_two{
+    margin-top: 47px;
+}
+/* =================biusnes bar end=================== */
+/* =================money receive bar start=================== */
+
+.color_back{
+    width: 100%;
+    height: 600px;
+}
+.main_receive_one{
+    display: flex;
+    align-items: center;
+}
+.receive_video{
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: red;
+    border-radius: 24px;
+    overflow: hidden;
+    
+}
+video{
+    width: 100%;
+    height: 600px; 
+    object-fit: cover;  
+}
+.receive_text{
+    /* background-color: red; */
+}
+.receive_text h2{
+    font-size: 52px;
+    width: 514px;
+    height: 124px;
+    color: #192252;
+    margin-left: 126px;
+    display: inline-block;
+    margin-top: 105px;
+}
+.receive_text span{
+    font-size: 18px;
+    color: #848FAC;
+    width: 421px;
+    height: 54px;
+    margin-left: 126px;
+    display: block;
+    margin-top: 24px;
+    /* background-color: green; */
+    /* text-align: center; */
+    margin-bottom: 40px;
+}
+.mark_1{
+    display: flex;
+    align-items: center;
+    /* justify-self: center;s */
+    margin-bottom: 40px;
+
+}
+.mark_1 img{
+    margin-left: 126px;
+}
+.mark_1 h3{
+    margin-left: 29px;
+    color: #192252;
+    font-size: 20px;
+}
+.mark_2{
+    display: flex;
+    align-items: center;
+    /* justify-self: center;s */
+    margin-bottom: 40px;
+
+}
+.mark_2 img{
+    margin-left: 126px;
+}
+.mark_2 h3{
+    margin-left: 29px;
+    color: #192252;
+    font-size: 20px;
+
+}
+.mark_3{
+    display: flex;
+    align-items: center;
+    /* justify-self: center;s */
+    margin-bottom: 40px;
+
+}
+.mark_3 img{
+    margin-left: 126px;
+}
+.mark_3 h3{
+    margin-left: 29px;
+    color: #192252;
+    font-size: 20px;
+
+}
+.mark_4{
+    display: flex;
+    align-items: center;
+    /* justify-self: center;s */
+    margin-bottom: 40px;
+
+}
+.mark_4 img{
+    margin-left: 126px;
+}
+.mark_4 h3{
+    margin-left: 29px;
+    color: #192252;
+    font-size: 20px;
+}
+.mark_5{
+    display: flex;
+    align-items: center;
+    /* justify-self: center;s */
+    margin-bottom: 40px;
+
+}
+.mark_5 img{
+    margin-left: 126px;
+}
+.mark_5 h3{
+    margin-left: 29px;
+    color: #192252;
+    font-size: 20px;
+
+}
+.main_receive_two{
+    width: 100%;
+    height: 222px;
+    /* background-color: red; */
+    margin-top: 100px;
+}
+.main_receive_two h6{
+    color: #848FAC;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+.main_receive_two ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+.main_receive_two ul li{
+    padding: 24px;
+    width: 208px;
+    height: 52px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 62px;
+}
+/* =================money receive bar end=================== */
 /* =================nav bar start=================== */
 /* =================nav bar end=================== */
