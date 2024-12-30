@@ -29,6 +29,9 @@ li{
 .logo{
     width: 20%;
 }
+/* .parent{
+    background-color: white;
+} */
 .menu{
     width: 60%;
 }
@@ -178,11 +181,12 @@ li{
     background-color: red;
     position: absolute;
     top: 800px;
-    /* left: -8px; */
     margin-left: 20px;
     border-radius: 8px;
     overflow: hidden;
     right: 350px;
+    z-index: 999;
+
 }
 .big_box_img img{
     width: 100%;
@@ -213,7 +217,7 @@ li{
     width:100%;
     position: absolute;
     left: 430px;
-    top: 500px;
+    top: 516px;
     padding: 20px;
     border-radius: 8px;
     gap: 10px;
