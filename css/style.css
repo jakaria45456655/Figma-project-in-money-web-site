@@ -85,7 +85,7 @@ li{
 .ship_two{
     position: absolute;
     top: -67px;
-    right: 154px;
+    right: -5px;
     z-index: -1;
 }
     .ship_three {
@@ -505,7 +505,7 @@ video{
 .planing{
     /* background-color: red; */
     width: 100%;
-    height: 1000px;
+    height: 900px;
     margin-top: 350px;
 }
 .planing h2{
@@ -540,7 +540,7 @@ video{
 
 .requler {
     width: 515px;
-    height: 118px;
+    height: 142px;
     /* background-color: blueviolet; */
     padding: 24px;
     border-radius: 16px;
@@ -566,15 +566,32 @@ video{
     width: 60%;
     padding: 24px;
 }
+.requler_child_three .b{
+    display: block;
+    font-size: 20px;
+    color: #192252;
+    text-decoration: none;
+    font-size: 32px;
+}
+.requler_child_three span{
+    font-size: 16px;
+    color: #848FAC;
+}
+
+
 .requler_child_two u{
     display: block;
     font-size: 20px;
     color: #192252;
     text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 800;
+    padding-top: 24px;
+    box-sizing: border-box;
 }
-.requler_child_two u:hover{
+/* .requler_child_two u:hover{
     color: white;
-}
+} */
 .requler_child_two span{
     color: #848FAC;
     font-size: 18px;
@@ -582,8 +599,9 @@ video{
     margin-top: 24px;
     text-decoration: none;
     font-size: normal;
+    padding-bottom: 24px;
 }
-.requler_child_three{
+uler_child_three{
     width: 205;
     text-align: end;
 }
@@ -594,12 +612,13 @@ video{
     margin-top: 8px;
 }
 .requler:hover{
+    color: white;
     background-color: blueviolet;
     transition: all linear .3s;
 }
 .planig_two{
     width: 525px;
-    height: 516px;
+    height: 605px;
     margin-top: 80px;
     background-color: #F7F7F7;
     border-radius: 16px;
@@ -629,7 +648,7 @@ video{
     width: 425px;
     height: 328px;
     /* background-color: red; */
-    margin: 48px 48px 68px 52px ;
+    margin: 96px 48px 68px 52px ;
 }
 .main_plane{
     display: flex;
@@ -892,5 +911,14 @@ hr{
 .last_footer .spce_one p{
     color: white;
     font-size: 18px;
+}
+.icon_flex img{
+    cursor: pointer;
+}
+.featured  a li:hover{
+    color: #000000;
+}
+.featured  b:hover{
+    color: #000000;
 }
 /* =================main footer bar end=================== */
